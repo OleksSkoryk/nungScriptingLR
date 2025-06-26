@@ -4,6 +4,8 @@ import Header from 'components/Header';
 import Footer from 'components/Footer';
 import Content from 'components/Content';
 
+import image1 from 'resources/dixieSpeaker2.png';
+
 export default function Dixie() {
   const { t } = useTranslation();
 
@@ -11,7 +13,7 @@ export default function Dixie() {
     <div className="App">
       <Header />
       <div className="Body">
-        <Content />
+        <Content image={image1} />
         
         
       </div>
