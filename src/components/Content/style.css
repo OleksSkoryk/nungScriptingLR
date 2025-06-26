@@ -1,9 +1,16 @@
+.Content {
+  gap: 20px;
+}
+
 .Content-text {
-    color: white;
-    font-size: 24px;
-    font-family: Monda;
+  color: white;
+  font-size: 24px;
+  font-family: Monda;
 }
 
 .Content-image {
-    border-radius: 50px;
+  border-radius: 50px;
+  width: 1400px;
+  height: 800px;
+  object-fit: cover;
 }

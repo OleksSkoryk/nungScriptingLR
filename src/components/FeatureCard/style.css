@@ -1,0 +1,26 @@
+@import 'Colors.css';
+
+.feature-card {
+  width: 440px;
+  height: 600px;
+  background-color: var(--panels);
+  border-radius: 50px;
+}
+
+.feature-icon {
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+}
+
+.feature-title {
+  font-family: Monda;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 0;
+}
+
+.feature-description {
+  font-family: Monda;
+  font-size: 20px;
+}
