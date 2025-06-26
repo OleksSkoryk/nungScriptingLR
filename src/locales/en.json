@@ -1,0 +1,142 @@
+{
+    "header": {
+        "features": "Features",
+        "buy": "Buy",
+        "download": "Download"
+    },
+    "page-main": {
+        "content1": "Elevate your everyday with Dixie — your personal assistant, home control hub, and high-fidelity sound system, all in one sleek device.",
+        "keyFeatures-label": "Key Features:",
+        "keyFeatures": {
+            "panel1": {
+                "title": "Voice-Controlled Assistant",
+                "content": "Ask questions, set reminders, get weather updates, or control your smart home — all hands-free."
+            },
+            "panel2": {
+                "title": "Premium Sound Quality",
+                "content": "Enjoy crystal-clear audio with deep bass and 360° sound that fills any room."
+            },
+            "panel3": {
+                "title": "Smart Home Integration",
+                "content": "Connect and control lights, thermostats, cameras, and more with simple voice commands."
+            },
+            "panel4": {
+                "title": "Multi-Room Audio",
+                "content": "Sync multiple speakers to play music throughout your home or set different moods in different rooms."
+            },
+            "panel5": {
+                "title": "Privacy You Control",
+                "content": "Built with advanced privacy settings, including a physical mute button and customizable data preferences."
+            },
+            "panel6": {
+                "title": "Expressive Smart Display",
+                "content": "HD screen shows useful visuals and responds with friendly facial expressions for a more natural, emotional connection."
+            }
+        },
+        "content2-label": "Why Choose Dixie?",
+        "content2": "Designed for both convenience and quality, this speaker adapts to your routines, learns your preferences, and makes your life easier—whether you're managing a busy schedule, entertaining guests, or relaxing with your favorite playlist.",
+        "content3-label": "Simple Setup, Endless Possibilities",
+        "content3": "Plug it in, connect to Wi-Fi, and start talking. It’s that easy. Compatible with iOS, Android, and all major smart home platforms.",
+        "prices-label": "Prices:",
+        "prices": {
+            "namings": {
+                "aiprocessing": "AI Processing",
+                "performance": "Performance",
+                "offlineCapability": "Offline Capability",
+                "privacy": "Privacy",
+                "targetUser": "Target User",
+                "requiresSubscription": "Requires Subscription"
+            },
+            "standart-speaker": {
+                "panel": {
+                    "title": "Dixie Assistant Speaker",
+                    "content": "Powerful hardware that can handle local AI Model, so Dixie will be available even without internet access.",
+                    "price": "Starting at $299,99"
+                },
+                "aiprocessing": "On-device with NPU",
+                "performance": "Fast, real-time response",
+                "offlineCapability": "Works offline",
+                "privacy": "Full local control, no data upload",
+                "targetUser": "Power users, privacy-focused",
+                "requiresSubscription": "No",
+                "buy-button": "Buy for $299,99"
+            },
+            "cloud-speaker": {
+                "panel": {
+                    "title": "Dixie Cloud Assistant Speaker",
+                    "content": "Cheaper version with less powerful hardware, works only with internet access",
+                    "price": "Starting at $129,99"
+                },
+                "aiprocessing": "Cloud-based (minimal local AI)",
+                "performance": "Slight latency due to cloud access",
+                "offlineCapability": "Requires internet for AI functions",
+                "privacy": "Voice data sent securely to cloud",
+                "targetUser": "Everyday users, budget-conscious",
+                "requiresSubscription": "Yes",
+                "buy-button": "Buy for $129,99" 
+            }
+        }
+    },
+    "page-download": {
+        "title": "Get the Dixie Assistant App",
+        "description": "Take full control of your Dixie Assistant Speaker with the official Smart AI Assistant app. Seamlessly manage your smart assistant and speaker — all in one place.",
+        "keyFeatures-label": "Key Features:",
+        "keyFeatures": {
+            "panel1": {
+                "title": "Connect Effortlessly",
+                "content": "Pair your mobile device with your Dixie Assistant Speaker in seconds."
+            },
+            "panel2": {
+                "title": "Install Extensions",
+                "content": "Discover and download new skills, tools, and features to expand what your Dixie Assistant can do."
+            },
+            "panel3": {
+                "title": "Personalize Your Experience",
+                "content": "Customize your assistant’s voice, behavior, and preferences to fit your lifestyle."
+            },
+            "panel4": {
+                "title": "Fine-Tune Speaker Settings",
+                "content": "Adjust sound, connectivity, and device preferences for your Dixie Assistant Speaker directly from the app."
+            },
+            "panel5": {
+                "title": "Easy Setup",
+                "content": "Set up your assistant and speaker quickly with step-by-step guidance."
+            },
+            "panel6": {
+                "title": "Stay Updated Automatically",
+                "content": "Get the latest features and improvements with automatic updates for your Dixie Assistant Speaker."
+            }
+        },
+        "downloadNow-label": "Download Now",
+        "downloadNow-description": "Take your smart assistant experience to the next level.",
+        "appStore-button": "resources/appstore_en.svg",
+        "googlePlay-button": "resources/googleplay_en.png",
+        "FAQ-label": "Frequently Asked Questions",
+        "FAQ": {
+            "question1": {
+                "Q": "Q: What devices are compatible with the Smart AI Assistant app?",
+                "A": "A: The app is compatible with most iOS and Android smartphones and tablets. Check your app store for specific OS version requirements."
+            },
+            "question2": {
+                "Q": "Q: How do I connect my Dixie Assistant Speaker to the app?",
+                "A": "A: Simply open the app, follow the setup guide, and ensure your speaker is powered on and in pairing mode. The app will walk you through each step."
+            },
+            "question3": {
+                "Q": "Q: Can I use the app without a Dixie Assistant Speaker?",
+                "A": "A: You’ll need a Dixie Assistant Speaker to access the full features of the app, including settings, extensions, and voice assistant integration."
+            },
+            "question4": {
+                "Q": "Q: Where can I find and install new extensions?",
+                "A": "A: Inside the app, go to the “Extensions” tab to browse, install, and manage new features for your Dixie Assistant."
+            },
+            "question5": {
+                "Q": "Q: Is an internet connection required?",
+                "A": "A: Yes, a stable internet connection is needed for setup, extension downloads, and updates."
+            },
+            "question6": {
+                "Q": "Q: How do I update my speaker or assistant?",
+                "A": "A: Updates are handled automatically through the app. You’ll be notified when a new update is available or installed."
+            }
+        }
+    }
+}

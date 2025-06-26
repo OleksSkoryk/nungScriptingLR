@@ -1,12 +1,17 @@
-import logo from './resources/logo.png';
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import './App.css';
-import './style.css';
+import i18n from './i18n'
+import Dixie from './pages/Dixie';
+import Download from './pages/Download';
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Dixie />} />
+        <Route path="/download" element={<Download />} />
+      </Routes>
+    </Router>
   );
 }
 
