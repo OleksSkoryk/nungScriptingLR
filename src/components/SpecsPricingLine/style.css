@@ -1,0 +1,18 @@
+.specs-pricing-line {
+  width: 400px;
+  height: 35px;
+  background-color: var(--panels);
+  border-radius: 50px;
+  padding: 20px;
+}
+
+.specs-pricing-text, .specs-pricing-text[type='normal'] {
+  font-family: Monda;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.specs-pricing-text[type='bold'] {
+  font-weight: bold;
+}
