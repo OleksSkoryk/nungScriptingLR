@@ -1,0 +1,24 @@
+.Footer {
+  height: 160px;
+  background-color: var(--secondary-color);
+  padding: 35px 35px 0px 35px;
+}
+
+.footer-text {
+  font-family: Monda;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--text-color);
+  margin: 0;
+}
+
+.footer-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pegasus-logo {
+  width: 397.25px;
+  height: 49px;
+}
