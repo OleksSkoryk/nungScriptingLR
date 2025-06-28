@@ -1,6 +1,6 @@
 import './style.css';
 
-export default function FeatureCard({ icon, title, description, price }) {
+export default function PricingCard({ icon, title, description, price }) {
   return (
     <div className="pricing-card">
       <img src={icon} className='pricing-icon' alt="Icon"></img>
