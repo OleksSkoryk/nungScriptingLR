@@ -12,7 +12,7 @@ import appstore_ua from 'resources/appstore_ua.svg';
 import googleplay_en from 'resources/googleplay_en.png';
 import googleplay_ua from 'resources/googleplay_ua.png';
 
-export default function Download() {
+export default function Download({ locale }) {
   const { t } = useTranslation();
 
   return (
@@ -32,11 +32,46 @@ export default function Download() {
         </CardsTable>
         <h1 className='subtitle'>{t('page-download.downloadNow-label')}</h1>
         <p className='content-text'>{t('page-download.downloadNow-description')}</p>
-        <div className='download-buttons'>
-          <img src={eval(t('page-download.appStore-button'))} alt='App Store'></img>
-          <img src={eval(t('page-download.googlePlay-button'))} alt='Google Play'></img>
-        </div>
+        {locale === 'en' && (
+          <div className='store-banners'>
+            <img src={appstore_en} className='appstore-banner' alt='App Store'></img>
+            <img src={googleplay_en} className='googleplay-banner' alt='Google Play'></img>
+          </div>
+        )}
+        {locale === 'ua' && (
+          <div className='store-banners'>
+            <img src={appstore_ua} className='appstore-banner' alt='App Store'></img>
+            <img src={googleplay_ua} className='googleplay-banner' alt='Google Play'></img>
+          </div>
+        )}
       </div>
+
+      <h1 className='subtitle'>{t('page-download.FAQ-label')}</h1>
+
+      <p className='content-text' type='bold'>{t('page-download.FAQ.question1.Q')}</p>
+      <p className='content-text'>{t('page-download.FAQ.question1.A')}</p>
+      <br></br>
+
+      <p className='content-text' type='bold'>{t('page-download.FAQ.question2.Q')}</p>
+      <p className='content-text'>{t('page-download.FAQ.question2.A')}</p>
+      <br></br>
+
+      <p className='content-text' type='bold'>{t('page-download.FAQ.question3.Q')}</p>
+      <p className='content-text'>{t('page-download.FAQ.question3.A')}</p>
+      <br></br>
+
+      <p className='content-text' type='bold'>{t('page-download.FAQ.question4.Q')}</p>
+      <p className='content-text'>{t('page-download.FAQ.question4.A')}</p>
+      <br></br>
+
+      <p className='content-text' type='bold'>{t('page-download.FAQ.question5.Q')}</p>
+      <p className='content-text'>{t('page-download.FAQ.question5.A')}</p>
+      <br></br>
+
+      <p className='content-text' type='bold'>{t('page-download.FAQ.question6.Q')}</p>
+      <p className='content-text'>{t('page-download.FAQ.question6.A')}</p>
+      <br></br>
+      
       <Footer />
     </div>
   );
