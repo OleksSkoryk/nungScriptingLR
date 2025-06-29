@@ -109,8 +109,8 @@
         },
         "downloadNow-label": "Download Now",
         "downloadNow-description": "Take your smart assistant experience to the next level.",
-        "appStore-button": "resources/appstore_en.svg",
-        "googlePlay-button": "resources/googleplay_en.png",
+        "appStore-button": "appstore_en",
+        "googlePlay-button": "googleplay_en",
         "FAQ-label": "Frequently Asked Questions",
         "FAQ": {
             "question1": {

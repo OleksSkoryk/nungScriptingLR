@@ -109,8 +109,8 @@
         },
         "downloadNow-label": "Завантажити зараз",
         "downloadNow-description": "Підніміть досвід користування смарт-асистентом на новий рівень.",
-        "appStore-button": "resources/appstore_ua.svg",
-        "googlePlay-button": "resources/googleplay_ua.png",
+        "appStore-button": "appstore_ua",
+        "googlePlay-button": "googleplay_ua",
         "FAQ-label": "Часті питання",
         "FAQ": {
             "question1": {
