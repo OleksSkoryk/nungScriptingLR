@@ -5,7 +5,7 @@
 .Content-text {
   color: white;
   font-size: 24px;
-  font-family: Monda;
+  font-family: var(--font);
 }
 
 .Content-image {

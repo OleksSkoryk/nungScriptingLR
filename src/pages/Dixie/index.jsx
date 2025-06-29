@@ -1,5 +1,8 @@
 import './style.css';
 import { useTranslation } from 'react-i18next';
+import { useRef, useEffect } from 'react';
+import { redirect, useNavigate } from 'react-router-dom';
+
 import Header from 'components/Header';
 import Footer from 'components/Footer';
 import Content from 'components/Content';
@@ -21,15 +24,35 @@ import privacyIcon from 'resources/icons/privacy.png';
 import faceIcon from 'resources/icons/face.png';
 import dixieLogo from 'resources/logo.png';
 
-export default function Dixie() {
+export default function Dixie({ scrollTo }) {
   const { t } = useTranslation();
+  // const navigate = redirect
+  const featuresRef = useRef(null);
+  const buyRef = useRef(null);
+
+  useEffect(() => {
+    switch (scrollTo) {
+      case 'features':
+        if (featuresRef.current) {
+          featuresRef.current.scrollIntoView({ behavior: 'smooth' });
+        }
+        break;
+      case 'buy':
+        if (buyRef.current) {
+          buyRef.current.scrollIntoView({ behavior: 'smooth' });
+        }
+        break;
+      default:
+        break;
+    }
+  }, [scrollTo]);
 
   return (
     <div className="App">
       <Header />
       <div className="Body">
         <Content text={t('page-main.content1')} image={image1} />
-        <h1 className="subtitle">{t('page-main.keyFeatures-label')}</h1>
+        <h1 ref={featuresRef} className="subtitle">{t('page-main.keyFeatures-label')}</h1>
         <CardsTable>
           <FeatureCard icon={microphoneIcon} title={t('page-main.keyFeatures.panel1.title')} description={t('page-main.keyFeatures.panel1.content')} />
           <FeatureCard icon={speakerIcon} title={t('page-main.keyFeatures.panel2.title')} description={t('page-main.keyFeatures.panel2.content')} />
@@ -42,7 +65,7 @@ export default function Dixie() {
         <Content text={t('page-main.content2')} image={image2} />
         <h1 className='subtitle'>{t('page-main.content3-label')}</h1>
         <Content text={t('page-main.content3')} image={image3} />
-        <h1 className='subtitle'>{t('page-main.prices-label')}</h1>
+        <h1 ref={buyRef} className='subtitle'>{t('page-main.prices-label')}</h1>
         <CardsTable>
           <div></div>
           <PricingCard

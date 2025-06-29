@@ -14,24 +14,24 @@
 }
 
 .pricing-title {
-  font-family: Monda;
+  font-family: var(--font);
   font-size: 24px;
   font-weight: bold;
   padding: 0;
-  margin-bottom: 0;
+  margin-bottom: 20px;
 }
 
 .pricing-description {
-  font-family: Monda;
+  font-family: var(--font);
   font-size: 20px;
   padding: 0;
   margin: 0;
 }
 
 .pricing-price {
-  font-family: Monda;
+  font-family: var(--font);
   font-size: 20px;
   font-weight: bold;
   padding: 0;
-  margin: 0;
+  margin: 20px 0;
 }

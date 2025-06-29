@@ -3,7 +3,7 @@
 :root {
   background-color: var(--primary-color);
   color: white;
-  font-family: Monda
+  font-family: var(--font)
 }
 
 .App {

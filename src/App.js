@@ -10,7 +10,9 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Dixie />} />
-        <Route path="/download" element={<Download locale={Cookies.get('locale')} />} />
+        <Route path="/features" element={<Dixie scrollTo={'features'} />} />
+        <Route path="/buy" element={<Dixie scrollTo={'buy'} />} />
+        <Route path="/download" element={<Download />} />
       </Routes>
     </Router>
   );

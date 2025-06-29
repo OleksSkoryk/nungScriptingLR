@@ -14,13 +14,14 @@
 }
 
 .feature-title {
-  font-family: Monda;
+  font-family: var(--font);
   font-size: 24px;
   font-weight: bold;
   padding: 0;
 }
 
 .feature-description {
-  font-family: Monda;
+  font-family: var(--font);
   font-size: 20px;
+  margin: 20px;
 }

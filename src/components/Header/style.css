@@ -18,7 +18,7 @@
 
 .Header-Button {
     color: #9898ba;
-    font-family: Monda;
+    font-family: var(--font);
     font-size: 24px;
     font-weight: bold;
     cursor: pointer;

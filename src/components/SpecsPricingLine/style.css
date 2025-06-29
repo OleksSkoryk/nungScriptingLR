@@ -4,10 +4,13 @@
   background-color: var(--panels);
   border-radius: 50px;
   padding: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
-.specs-pricing-text, .specs-pricing-text[type='normal'] {
-  font-family: Monda;
+.specs-pricing-text {
+  font-family: var(--font);
   font-size: 20px;
   padding: 0;
   margin: 0;
